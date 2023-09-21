@@ -1,0 +1,12 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1 {
+    color: #E43170;
+    font-weight: 900;
+}
+
+h1, section > p {
+    text-align: center;
+}
