@@ -1,5 +1,6 @@
 body {
     font-family: 'Fredoka', sans-serif;
+    margin: 0 5%;
 }
 
 h1 {
@@ -7,6 +8,65 @@ h1 {
     font-weight: 900;
 }
 
-h1, section > p {
+.contacts > p {
+    font-size: 1.2em;
+    margin: 2.5em 0.5em 2em 0.5em;
+
+}
+
+h1, .contacts > p {
     text-align: center;
+}
+
+.clearfix, .contacts {
+    max-width: 79.8em;
+    margin: 0 auto;
+}
+
+.col {
+    background-color: #0F0E18;
+    width: 24em;
+    box-sizing: border-box;
+    float: left;
+    margin: 2em 1.3em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col h2 {
+    color: white;
+    margin: 0;
+    padding-top: 0.5em;
+    font-size: 1.4em;
+}
+
+.col p {
+    color: white;
+    margin: 0.6em;
+    margin-left: 0;
+    font-weight: 200;
+}
+
+.col img {
+    float: left;
+    padding-right: 1em;
+}
+
+.col img, .col {
+    height: 7em;
+}
+
+.col div {
+    display: inline;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+a {
+    text-decoration: none;
+    color: #53BDF0;
+    font-weight: 400;
 }
